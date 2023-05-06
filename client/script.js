@@ -7,7 +7,7 @@ import user from './assets/user.svg';
 const form = document.querySelector('form');
 const chatContainer = document.querySelector('#chat_container');
 
-//loading functionality added
+//loading functionality 
 function loader(element){
   element.textContent = '';
 
@@ -19,6 +19,7 @@ function loader(element){
     }
   }, 300)
 
+//typing style
 function typeText(element,text){
   let index = 0;
 
