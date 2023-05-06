@@ -7,6 +7,7 @@ import user from './assets/user.svg';
 const form = document.querySelector('form');
 const chatContainer = document.querySelector('#chat_container');
 
+//loading functionality added
 function loader(element){
   element.textContent = '';
 
@@ -34,7 +35,7 @@ function generateUniqueID(){
   const timeStamp = Date.now();
   const randomNumber = Math.random();
   const hexadecimalString = randomNumber.toString();
-  
+
   reutrn `id-${timeStamp}-${hexadecimalString}`
 }
 
